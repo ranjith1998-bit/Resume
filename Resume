@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Ranjith</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+    header, footer, main, section {
+      margin-bottom: 20px;
+    }
+    h1, h2, h3 {
+      margin-bottom: 10px;
+    }
+    h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .contact {
+      margin-bottom: 10px;
+    }
+    .experience, .education {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ranjith</h1>
+    <p class="contact">Address: 123 Main Street, City, State, Zip</p>
+    <p class="contact">Phone: (123) 456-7890</p>
+    <p class="contact">Email: ranjith@example.com</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Professional Experience</h2>
+      <article class="experience">
+        <h3>Job Title</h3>
+        <p><strong>Company A</strong> - City, State</p>
+        <p><em>Month Year - Month Year</em></p>
+        <ul>
+          <li>Responsibility or achievement</li>
+          <li>Responsibility or achievement</li>
+          <li>Responsibility or achievement</li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>Job Title</h3>
+        <p><strong>Company B</strong> - City, State</p>
+        <p><em>Month Year - Month Year</em></p>
+        <ul>
+          <li>Responsibility or achievement</li>
+          <li>Responsibility or achievement</li>
+          <li>Responsibility or achievement</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <article class="education">
+        <h3>Degree Name</h3>
+        <p><strong>University Name</strong> - City, State</p>
+        <p><em>Month Year - Month Year</em></p>
+        <ul>
+          <li>Relevant coursework or achievements</li>
+          <li>Relevant coursework or achievements</li>
+          <li>Relevant coursework or achievements</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>References available upon request</p>
+  </footer>
+</body>
+</html>
